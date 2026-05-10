@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Mamá 💖</title>
+
+<style>
+    body{
+        margin:0;
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:linear-gradient(to bottom, #ff4da6, #ff99cc);
+        overflow:hidden;
+        font-family:Arial, sans-serif;
+    }
+
+    .card{
+        width:80%;
+        max-width:600px;
+        background:white;
+        border-radius:30px;
+        padding:40px;
+        text-align:center;
+        box-shadow:0 0 25px rgba(0,0,0,0.2);
+        animation:flotar 3s ease-in-out infinite;
+    }
+
+    .emoji{
+        font-size:4rem;
+        margin-bottom:20px;
+    }
+
+    h1{
+        color:#ff1493;
+        font-size:2.2rem;
+        margin-bottom:20px;
+    }
+
+    p{
+        color:#555;
+        font-size:1.2rem;
+        line-height:1.8;
+    }
+
+    .firma{
+        margin-top:25px;
+        color:#ff1493;
+        font-size:1.4rem;
+        font-weight:bold;
+    }
+
+    @keyframes flotar{
+        0%{
+            transform:translateY(0px);
+        }
+        50%{
+            transform:translateY(-10px);
+        }
+        100%{
+            transform:translateY(0px);
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="emoji">💖🌸</div>
+
+    <h1>Te Amo Mami</h1>
+
+    <p>
+        Querida mamá Lesli Gómez, <br><br>
+        gracias por estar siempre conmigo, por cuidarme,
+        apoyarme y darme tu amor incondicional cada día.
+        Eres la persona más importante de mi vida y mi mayor inspiración.
+        No existen palabras suficientes para agradecer todo lo que haces por mí.
+        Espero que siempre recuerdes lo especial y maravillosa que eres. 💕
+    </p>
+
+    <div class="firma">
+        Con mucho amor 💖
+    </div>
+</div>
+
+</body>
+</html>
